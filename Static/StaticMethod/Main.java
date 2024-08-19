@@ -1,25 +1,25 @@
-//used to instantiate a class
+
 class Mobile
 {
     String brand;
     int price;
-    Static String name;
+    static String name;
 
+    //static block
+    static
+    {
+        name = "phone";
+        System.out.println("static block called...");
+    }
     public Mobile()
     {
         brand = "";
         price = 200;
-        System.out.println("constructor called...")
-    }
-    static
-    {
-        name = "phone";
-        System.out.println("static block called...")
-       
+        System.out.println("constructors called...");
     }
     public void show()
     {
-        System.out.println(brand + ": " + price + " : " + name)
+        System.out.println(brand + ": " + price + " : " + name);
     }
 }
 
@@ -30,7 +30,7 @@ public class Main
         Mobile obj1 = new Mobile();
         obj1.brand = "Apple";
         obj1.price = 1500;
-        Mobile.name = "SmartPhone";
+        Mobile.name = "SmartPhone"; 
         
         Mobile obj2 = new Mobile();
     }
