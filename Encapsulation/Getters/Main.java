@@ -4,12 +4,13 @@ class Human
     private String name = "Ben";
 
     //data can be accessed by help of methods
-    public int getAge()
+    
+    public int getAge() //GETTER
     {
         return age;
     }
 
-    public String getName()
+    public String getName() //GETTER.
     {
         return name;
     }
