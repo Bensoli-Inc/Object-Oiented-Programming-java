@@ -13,7 +13,10 @@
 
  class B extends A
 {
-
+    public void show() //overwrites the show() of parent class
+    {
+        System.out.println("in show");
+    }
 }
 
 public class Main
