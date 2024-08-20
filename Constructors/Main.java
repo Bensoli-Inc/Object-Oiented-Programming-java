@@ -42,7 +42,7 @@ public class Main
     public static void main(String[] a)
     {
         Human obj = new Human(); //constructor wil be called after creating a new class
-        Human obj1 = new Human(18, "kate");
+        Human obj1 = new Human(18, "kate"); //will call the parametrized constructor
         // obj.setAge(23);  //setting a value
         // obj.setName("Ben");
 
