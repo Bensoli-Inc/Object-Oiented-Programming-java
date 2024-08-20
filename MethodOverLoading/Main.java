@@ -1,5 +1,5 @@
 class Calculator
-{
+{    //using same function name but each method accepts different no. of parameters or same parameters but of different types
     public int add(int n1, int n2)
     {
        return n1 + n2;

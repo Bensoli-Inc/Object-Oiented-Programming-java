@@ -4,7 +4,7 @@ class Mobile
 {
     String brand;
     int price;
-    static String name;
+    static String name; //this name variable is now common to all objects
 
     
     public void show()
@@ -27,6 +27,7 @@ public class Main
         obj2.price = 2000;
         Mobile.name = "SmartPhone";
         
+        obj1.name = "iphone" //will change name for all objects
         obj1.show();
         obj2.show();
     }
