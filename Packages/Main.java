@@ -1,6 +1,7 @@
 import tools.Calc;
 import tools.AdvancedCalc;
 
+// import tools.*; -to import all files i the folder/package
 
 public class Main
 {
@@ -17,4 +18,4 @@ public class Main
         System.out.println("Multiplication :" + multi);
         System.out.println("Qoutient :" + div);
     }
-}
+}git
