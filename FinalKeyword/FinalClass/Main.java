@@ -15,7 +15,7 @@ final class Calc
 }
 
 
-class AdvCalc extends Calc
+class AdvCalc extends Calc //error - cannot inherit from final Calc
 {
 
 

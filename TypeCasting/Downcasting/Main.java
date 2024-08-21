@@ -21,5 +21,8 @@ public class Main
     {
         A obj = (A) new B(); //upcasting
         obj.show1();
+
+        B obj1 = (B) obj; //downcasting
+        obj1.show2();
     }
 }
