@@ -33,6 +33,6 @@ public class Main
        obj.config();
 
        System.out.println(A.area);
-       A.area = "NAIROBI"; //error
+       A.area = "NAIROBI"; //error - cannot assign a value to static final variable area
     }
 }

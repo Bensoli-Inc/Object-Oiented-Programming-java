@@ -1,6 +1,6 @@
 
 enum Status{
-    Running, Failed, Pending, Success;
+    Running, Failed, Pending, Success; //named constants
 }
 
 public class Main
