@@ -1,4 +1,5 @@
 
+@Deprecated //u can use it but don't use it
 class A 
 {
     public void showTheDataWhichBelongsToThisClass()
@@ -8,8 +9,9 @@ class A
 }
 
 class B extends A
-{
-    public void showTheDataWhichBelongToThisClass()
+{   
+    @Override //ANNOTATION - show your intentions to the complier
+    public void showTheDataWhichBelongToThisClass() //spelling wrong
     {
         System.out.println("in B show");
     }

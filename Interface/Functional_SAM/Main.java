@@ -25,11 +25,11 @@ public class Main
     //         }
     //    };
 
-    A obj = () -> //lamba expression
+    A obj = () -> //lambda expression
             {
                 System.out.println("In show");
-            }
-       ;
+            };
+       
        obj.show();
     }
 }
