@@ -37,7 +37,7 @@ public class Main
           System.out.println("Enter a number");
         
         try {
-            Scanner sc = new Scanner (System.in);
+            Scanner sc = new Scanner(System.in);
             int num = sc.nextInt();
             System.out.println("Number is : " + (num));
         } catch(Exception e)
