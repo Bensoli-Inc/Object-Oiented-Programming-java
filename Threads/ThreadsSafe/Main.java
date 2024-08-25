@@ -24,7 +24,7 @@ public class Main
 
         Runnable obj2 = () ->
             {
-                for(int i=0;i<1000;i++)
+                for(int i=0;i<1010;i++)
                 {
                    c.increment();
                 }
